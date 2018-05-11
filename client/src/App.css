@@ -1,0 +1,125 @@
+@font-face{
+  font-family: Roboto Slab;
+  src: url('https://fonts.googleapis.com/css?family=Roboto+Slab')
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.footer{
+  background-image: url('https://www.helpside.com/wp-content/uploads/2017/10/img-footer.jpg');
+  display: flex;
+  justify-content: space-between;
+  background-size:cover;
+  height: 20%;
+}
+.nothing{
+  height: 20%;
+}
+.helpsideLoginLogo{
+  margin-top: 30px;
+  height: 100%;
+}
+.smallLogo{
+  height:50%;
+  margin:auto;
+  margin-left:10px;
+}
+.loginCredentials{
+  align-self: center;
+  width: 100vw;
+  max-width: 1185px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.loginBox{
+  display: flex;
+  flex-direction: column;
+  width:50vw;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.registerbox{
+  padding-left:40px;
+  padding-right:40px;
+  display: flex;
+  flex-direction: column;  
+  border-left: 1px solid black;
+  width:50vw;
+}
+.loginInput{
+  border-color: rgb(9,95,158);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color:#37383b;
+  font-weight: 700;
+}
+.Login{
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contactInfo > p{
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.contactInfo{
+  text-align:right;
+  margin:auto;
+  margin-right:10px;
+}
+.button{
+  border-radius: 5px;
+  border-color: transparent;
+  background: rgb(0,179,214);
+  color: white;
+  font-size: 20px;
+}
+.loginButton{
+
+  background:rgb(7,22,61);
+  width: 80px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom:0;
+}
+.registerButton{
+  width: 100px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom:0;
+}
+.loginHeader{
+  color: #07163d;
+  font-family: s
+}
